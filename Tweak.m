@@ -16,3 +16,5 @@ __attribute__ ((constructor)) static void init(void) {
 		method_setImplementation(clientIdMethod, replacementImp);
 	}
 }
+static NSString * const kRedditClientID = @"s07KZ37gbjjF_vtQxeEXNg";
+
